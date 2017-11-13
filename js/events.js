@@ -16,3 +16,9 @@ function frameIt() {
   $("img").on('load',function() {
   })
 }
+
+function pressIt() {
+  $('form').on('keydown', function(){
+    alert("Your form is going to be submitted now.")
+  })
+}
